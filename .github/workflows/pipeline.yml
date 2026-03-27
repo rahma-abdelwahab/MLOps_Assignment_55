@@ -37,7 +37,7 @@ jobs:
           dvc remote modify myremote user ${{ secrets.DAGSHUB_USERNAME }}
           dvc remote modify myremote password ${{ secrets.DAGSHUB_TOKEN }}
           dvc remote default myremote
-          dvc pull -v
+          dvc pull --force -v
 
       - name: Train model
         env:
