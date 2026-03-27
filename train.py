@@ -28,7 +28,7 @@ def main():
     )
 
     # 2. Train
-    model = SVC(kernel="rbf", C=1.0, random_state=42)
+    model = SVC(kernel="linear", C=0.001, random_state=42)
     model.fit(X_train, y_train)
 
     # 3. Evaluate
