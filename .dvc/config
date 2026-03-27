@@ -1,0 +1,5 @@
+[core]
+    autostage = true
+    check_update = false
+['remote "myremote"']
+    url = https://dagshub.com/rahma-abdelwahab/MLOps_Assignment_55.dvc
