@@ -1,5 +1,9 @@
 [core]
     autostage = true
     check_update = false
+    remote = myremote
 ['remote "myremote"']
     url = https://dagshub.com/rahma-abdelwahab/MLOps_Assignment_55.dvc
+    auth = basic
+    user = rahma-abdelwahab
+    password = YOUR_ACTUAL_DAGSHUB_TOKEN
